@@ -1,0 +1,19 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="Application Log Analytics Dashboard",
+    layout="wide"
+)
+
+st.title("Application Log Analytics & Anomaly Detection")
+
+st.subheader("Project Dashboard")
+
+st.metric(
+    label="System Status",
+    value="Healthy"
+)
+
+st.write(
+    "This dashboard can be extended to display KPIs, anomaly trends, and model predictions from HDFS logs."
+)s
